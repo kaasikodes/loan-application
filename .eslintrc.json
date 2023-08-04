@@ -1,0 +1,19 @@
+{
+  "extends": ["react-app", "react-app/jest", "prettier"],
+  "rules": {
+    "eqeqeq": "error",
+    "max-lines": [
+      1,
+      {
+        "max": 500
+      }
+    ],
+
+    "max-params": [
+      1,
+      {
+        "max": 5
+      }
+    ]
+  }
+}
